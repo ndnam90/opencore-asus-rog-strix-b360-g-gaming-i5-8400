@@ -757,7 +757,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -873,7 +873,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Default</string>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1038,9 +1038,9 @@
 			<key>JumpstartHotPlug</key>
 			<false/>
 			<key>MinDate</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>MinVersion</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 		</dict>
 		<key>AppleInput</key>
 		<dict>
@@ -1052,6 +1052,8 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>GraphicsInputMirroring</key>
+			<true/>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
