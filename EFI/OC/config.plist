@@ -155,9 +155,41 @@
 		<array>
 			<dict>
 				<key>Address</key>
-				<integer>4275159040</integer>
+				<integer>3758096384</integer>
 				<key>Comment</key>
-				<string>Haswell: SB_RCBA is a 0x4 page memory region, containing SPI_BASE at 0x3800 (SPI_BASE_ADDRESS)</string>
+				<string>MMIO 0xE0000000 (0x10000 pages, 0x800000000000100D)</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>4261412864</integer>
+				<key>Comment</key>
+				<string>MMIO 0xFE000000 (0x11 pages, 0x8000000000000001)</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>4273995776</integer>
+				<key>Comment</key>
+				<string>MMIO 0xFEC00000 (0x1 pages, 0x800000000000100D)</string>
+				<key>Enabled</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>4275044352</integer>
+				<key>Comment</key>
+				<string>MMIO 0xFED00000 (0x4 pages, 0x800000000000100D)</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>4276092928</integer>
+				<key>Comment</key>
+				<string>MMIO 0xFEE00000 (0x1 pages, 0x8000000000000001)</string>
 				<key>Enabled</key>
 				<false/>
 			</dict>
@@ -165,9 +197,9 @@
 				<key>Address</key>
 				<integer>4278190080</integer>
 				<key>Comment</key>
-				<string>Generic: PCI root is a 0x1000 page memory region used by some types of firmware</string>
+				<string>MMIO 0xFF000000 (0x1000 pages, 0x800000000000100D)</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>Patch</key>
@@ -1081,7 +1113,7 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string>HFS+ Driver</string>
+				<string>HfsPlus.efi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
@@ -1093,7 +1125,7 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string></string>
+				<string>OpenRuntime.efi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
