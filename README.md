@@ -18,3 +18,9 @@
 - Create SSDT-PLUG manually
 - Create SSDT-PMC manually
 - Patch iGPU to work with HDMI
+
+## Supported macOS versions
+
+### Catalina 10.15.7
+
+- SecureBootModel: Disabled
