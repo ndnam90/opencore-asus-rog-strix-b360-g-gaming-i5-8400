@@ -4,14 +4,11 @@
 
 **CPU**: Intel Core i5 8400
 
-**Wireless Card**: TP-Link TL-WDN4800
-
 | Component     | Chipset                       | Is Work? |
 | ------------- |-------------------------------|----------|
 | Audio         | RealTek ALC S1220A            | YES      |
 | LAN           | Intel I219-V                  | YES      |
 | iGPU          | Intel UHD Graphics 630        | YES      |
-| Wifi          | Atheros 9380                  | YES      |
 
 ## What did I do?
 - Create SSDT-AWAC manually
@@ -23,7 +20,9 @@
 
 ### Catalina 10.15.7
 
-- SecureBootModel: Disabled
+### Big Sur 11.7.5
+
+### Ventura 13.3
 
 ## BIOS Setup
 
