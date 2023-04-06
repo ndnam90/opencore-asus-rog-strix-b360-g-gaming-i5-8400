@@ -51,5 +51,3 @@
 - OS Type: Boot -> Secure Boot -> OS Types -> Select `Other OS`
 - DVMT Pre Allocated: Advanced -> System Agent (SA) Configuration -> Graphic Configuration ->  DVMT Pre Allocated -> Select `64 MB` or more
 - SATA Mode: Advanced -> PCH Storage Configuration -> SATA Model -> Select `AHCI`
-
-
