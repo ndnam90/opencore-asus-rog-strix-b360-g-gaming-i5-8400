@@ -34,7 +34,6 @@
 - Secure Boot: Boot -> Secure Boot -> Key Management -> Clear
 - Serial/COM Port: Advanced -> Onboard Device Configuration -> Serial Port
 - Parallel Port: N/A
-- VT-d: Advanced -> System Agent (SA) Configuration -> VT-d
 - Compatibility Support Module (CSM): Boot -> CSM -> Launch
 - Thunderbolt: N/A
 - Intel SGX: Advanced -> CPU Configuration -> SGX
@@ -43,6 +42,7 @@
 
 ### Enable
 
+- VT-d: Advanced -> System Agent (SA) Configuration -> VT-d
 - VT-x: Supported
 - Above 4G Decoding: Advanced -> PCI Subsystem Setting -> Above 4G Decoding
 - Hyper Threading: Not Supported
@@ -51,3 +51,4 @@
 - OS Type: Boot -> Secure Boot -> OS Types -> Select `Other OS`
 - DVMT Pre Allocated: Advanced -> System Agent (SA) Configuration -> Graphic Configuration ->  DVMT Pre Allocated -> Select `64 MB` or more
 - SATA Mode: Advanced -> PCH Storage Configuration -> SATA Model -> Select `AHCI`
+- VMX: Advanced -> CPU Configuration -> Intel (VMX) Virtual Technology
